@@ -4,7 +4,7 @@ import '../App.css';
 class Projects extends Component {
   render() {
     return (
-      <nav id='projects'>Projects</nav>
+      <nav id='projects'>Projaects</nav>
     )
   }
 }

@@ -4,7 +4,7 @@ import '../App.css';
 class About extends Component {
   render() {
     return (
-      <nav>About</nav>
+      <nav id='about'>About</nav>
     )
   }
 }
