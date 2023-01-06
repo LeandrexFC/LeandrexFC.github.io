@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Header from '../Components/Header';
 import PropTypes from 'prop-types';
-import '../App.css'
+import '../AllCss/App.css'
 import profilePic from '../images/profile-pic Linkedin.png'
 
 class Home extends Component {

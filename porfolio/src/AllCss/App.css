@@ -1,9 +1,9 @@
    body {
-  background-color: #1C1C1C;
+  background-color: white;
 }  
 header {
   text-decoration: none;
-  background-color: #4682B4;
+  background-color: black;
   padding: 50px;
 }
 
@@ -72,4 +72,5 @@ header {
 	position:relative;
 	top:1px;
 }
+
 
