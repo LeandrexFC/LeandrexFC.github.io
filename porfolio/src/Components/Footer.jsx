@@ -8,7 +8,7 @@ class Footer extends Component {
   render() {
     return (
       <>
-      <footer id='test'>
+      <footer id='footer'>
         <div id='allFooterImg'>
         <p id='footerText'>© 2023 Leandro Sousa</p>
         <a href='https://www.linkedin.com/in/leandro-sousa-dev/' target='_blank' rel="noreferrer">
