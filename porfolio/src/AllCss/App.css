@@ -1,18 +1,6 @@
    body {
   background-color: white;
 }  
-header {
-  text-decoration: none;
-  background-color: black;
-  padding: 50px;
-}
-
-#projects, #about, #contact {
-  text-decoration: none;
-  display: inline-block;
-  margin-inline-start: 280px;
-  color: white;
-}
 
 #profilePic {
   float: right;

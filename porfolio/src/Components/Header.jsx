@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
-import '../AllCss/App.css'
+import '../AllCss/Header.css'
+import lsLogo from '../images/lsLogo.jpg'
 
 class Header extends Component {
   render() {
@@ -9,6 +10,9 @@ class Header extends Component {
         <Link id='projects' to="/projects"> Projects </Link>
         <Link  id='about' to="/about"> About </Link>
         <Link id='contact' to="/contact"> Contact </Link>
+        <Link className='lsLogo' to='/'>
+        <img  className='lsLogo' src={ lsLogo } alt='lsLogo' />
+        </Link>
       </header>
     )
   }
