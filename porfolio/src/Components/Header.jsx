@@ -10,6 +10,7 @@ class Header extends Component {
         <Link id='projects' to="/projects"> Projects </Link>
         <Link  id='about' to="/about"> About </Link>
         <Link id='contact' to="/contact"> Contact </Link>
+        <Link id='skills' to='/skills'> Skills </Link>
         <Link className='lsLogo' to='/'>
         <img  className='lsLogo' src={ lsLogo } alt='lsLogo' />
         </Link>

@@ -1,14 +1,15 @@
 header {
   text-decoration: none;
-  background-color: black;
+  background-color: #937047;
   padding: 50px;
 }
 
-#projects, #about, #contact {
+#projects, #about, #contact, #skills {
   text-decoration: none;
   display: inline-block;
   margin-inline-start: 220px;
   color: white;
+  font-size: 20px;
 }
 
 .lsLogo {

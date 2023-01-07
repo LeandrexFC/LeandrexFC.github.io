@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import '../AllCss/Contact.css'
 import Header from '../Components/Header';
-// import InstagramLogo from '../images/InstagramLogo.png'
 import LinkedinLogo from '../images/LinkedinLogo.png'
-// import GitHubLogo from '../images/GitHubLogo.png'
 import profilePic from '../images/profile-pic Linkedin.png'
 import emailLogo from '../images/emailLogo.png'
 import Footer from '../Components/Footer';
