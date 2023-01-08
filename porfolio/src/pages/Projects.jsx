@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import '../AllCss/App.css'
+import '../AllCss/Projects.css'
 import Header from '../Components/Header';
 
 class Projects extends Component {
   render() {
     return (
-      <>
+      <div>
       <Header />
-      <nav id='projects'>Projaects</nav>
-      </>
+      <h1 className='projectsTitle'> Projects. </h1>
+      </div>
     )
   }
 }

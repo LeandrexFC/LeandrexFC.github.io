@@ -6,6 +6,15 @@ import profilePic from '../images/profile-pic Linkedin.png';
 import LinkedinLogo from '../images/LinkedinLogo.png';
 import emailLogo from '../images/emailLogo.png';
 import Footer from '../Components/Footer';
+import htmlLogo from '../images/htmlLogo.png'
+import cssLogo from '../images/cssLogo.png'
+import jsLogo from '../images/javascriptLogo.png'
+import reactLogo from '../images/reactLogo.png'
+import jestLogo from '../images/jestLogo.png'
+import rtlLogo from '../images/rtlLogo.png'
+import gitLogo from '../images/gitLogo.png'
+import githubLogo from '../images/githubLogo.png'
+import '../allScript/ScrollReveal'
 
 class Home extends Component {
   redirectToProjects = () => {
@@ -17,36 +26,41 @@ class Home extends Component {
   render() {
     return (
       <div>
-      <Header />
-      <div className='welcome'>
-      <h1 className='text1'> Welcome. </h1>
-      <p className='textp'> My name is Leandro Sousa, I'm a Web developer from São Paulo, BR. I study at Trybe Curse, And I'm Loving the Developer World. </p>
-      <button className='btn-home' type='button' onClick={ this.redirectToProjects }> My Projects </button>
-      <div className='imgDiv'>
-      <img id='profilePic' src={ profilePic } alt='Leandro img' />
-      </div>
-      </div>
+        <Header />
+        <div className='welcome'>
+          <h1 className='text1'> Welcome. </h1>
+          <p className='textp'> My name is Leandro Sousa, I'm a Web developer from São Paulo, BR. I study at Trybe Curse, And I'm Loving the Developer World. </p>
+          <button className='btn-home' type='button' onClick={ this.redirectToProjects }> My Projects </button>
+        </div>
 
-      <div className='aboutTextHome'>
-      <h1 id='aboutTitleHome'>About.</h1>
-      <p id='pAboutHome'> Hey, My name is Leandro Sousa, and I'm 19 years old, I have always been passionate about technology, I always had many doubts about which career to pursue until I found and discovered programming, from the first contact I had I fell in love, since then I started to always want to learn more.I'm currently studying Full Stack Web Development, and I'm learning more every day, and every project I complete makes me happier.
-      My dream is to be happy with my career, travel the world and make a positive impact on people's lives with my programming knowledge, and I won't stop until I achieve that. </p>
-      </div>
-      <div>
+        <section className='aboutTextHome2' >
+        <div className='imgDiv'>
+          <img id='profilePic' src={ profilePic } alt='Leandro img' />
+        </div> 
+        <div className='aboutTextHome'>
+          <h1 id='aboutTitleHome'>About.</h1>
+          <p id='pAboutHome'> Hey, My name is Leandro Sousa, and I'm 19 years old, I have always been passionate about technology, I always had many doubts about which career to pursue until I found and discovered programming, from the first contact I had I fell in love, since then I started to always want to learn more.I'm currently studying Full Stack Web Development, and I'm learning more every day, and every project I complete makes me happier.
+          My dream is to be happy with my career, travel the world and make a positive impact on people's lives with my programming knowledge, and I won't stop until I achieve that. </p>
+        </div>
+        </section>
+
         <div>
-          <h1 className='skillTitle'>Skills.</h1>
+          <h1 className='skillTitleHome'>Skills.</h1>
+        <div className='skillsHome'>
+          <img className='skillsImgHome' src={ htmlLogo } alt='html Logo' />
+          <img className='skillsImgHome' src={ cssLogo }  alt='css Logo' />
+          <img className='skillsImgHome' src={ jsLogo } alt='js Logo' />
+          <img className='skillsImgHome' src={ reactLogo }  alt='react Logo' />
+          <img className='skillsImgHome' src={ jestLogo } alt='jest Logo' />
+          <img className='skillsImgHome' src={ rtlLogo } alt='rtl Logo' />
+          <img className='skillsImgHome' src={ gitLogo } alt='git Logo' />
+          <img className='skillsImgHome' src={ githubLogo } alt='gitHub Logo' />
         </div>
-        <div className='skills'>
-          <p>HTML5</p>
-          <p>CSS</p>
-          <p>JS</p>
-          <p>REACT</p>
-          <p>JEST</p>
-          <p>RTL</p>
-          <p>GIT</p>
-          <p>GITHUB</p>
         </div>
-      </div>
+
+      <section className='projectsHome'>
+      <h1 className='projectsTitleHome'> Projects. </h1>
+      </section>
 
       <section id='allContactHome'>
         <div id='allContactTextHome'>

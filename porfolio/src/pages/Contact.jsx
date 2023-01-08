@@ -13,6 +13,7 @@ class Contact extends Component {
       <Header />
       <section id='allContact'>
         <div id='allContactText'>
+          <h1 className='contactTitle'> Contact.</h1>
           <h1 className='contactText'>Hey,</h1>
           <h2 className='contactText'>For some reason do you wanna talk to me?</h2>
           <h2 h2 className='contactText'>You can text me here:</h2>

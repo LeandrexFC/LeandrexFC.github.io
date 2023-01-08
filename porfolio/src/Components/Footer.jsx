@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import GitHubLogo from '../images/GitHubLogo.png'
+import GitHubLogo from '../images/githubLogo.png'
 import LinkedinLogo from '../images/LinkedinLogo.png'
 import emailLogo from '../images/emailLogo.png'
 import '../AllCss/Footer.css'

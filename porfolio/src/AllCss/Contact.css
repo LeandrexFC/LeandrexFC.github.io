@@ -33,16 +33,27 @@
   text-decoration: none;
   margin-left: 10px;
   margin-right: 100px;
-  color: black;
+  color: white;
 }
 
 .emailA {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 #contactProfilePic {
   width: 300px;
-  margin-left: 220px;
-  margin-top: 40px;
+  margin-left: -100px;
+  margin-top: 300px;
+}
+
+.contactTitle {
+  margin-top: 0px;
+  margin-left: 300px;
+  font-size: 130px;
+  color: white;
+}
+
+.contactText {
+  color: white;
 }

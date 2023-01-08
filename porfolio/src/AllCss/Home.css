@@ -1,6 +1,7 @@
-#profilePic {
-  width: 220px;
-}
+body {
+  background-color: #241f1c;
+  font-family: 'Bebas Neue';
+}  
 
 .imgDiv {
   margin-top: 150px;
@@ -52,6 +53,12 @@
 	top:1px;
 }
 
+#profilePic {
+  width: 220px;
+  margin-top: 130px;
+  margin-left: 520px;
+}
+
 .aboutTextHome {
   width: 500px;
   text-align: center;
@@ -59,21 +66,29 @@
   color: white;
 }
 
+.aboutTextHome2 {
+  background-color: #4682B4;
+  height: 700px;
+  margin-top: -300px;
+}
+
 #aboutTitleHome {
-  margin-top: 50px;
+  margin-top: 20px;
   text-align: center;
+  font-size: 40px;
 } 
 
 #pAboutHome {
   text-align: center;
   word-spacing: 2px;
+  margin-top: -20px;
 }
 
 #allContactHome {
   text-align: center;
   display: flex;
   margin-left: 180px;
-  margin-top: 200px;
+  margin-top: 400px;
  }
  
  #allContactTextHome {
@@ -106,7 +121,6 @@
  }
  
  .linkedinAHome {
-  
    text-decoration: none;
    margin-left: 10px;
    margin-right: 100px;
@@ -117,3 +131,42 @@
    text-decoration: none;
    color: black;
  }
+
+.skillTitleHome {
+  color: white;
+  width: 500px;
+  text-align: center;
+  margin-left: 400px;
+  margin-top: 300px;
+  font-size: 60px;
+}
+
+.skillsHome {
+  /* margin-top: 300px; */
+  display: flex;
+  justify-content: center;
+  flex-direction:row
+} 
+
+.skillsImgHome {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.projectsTitleHome {
+  color: white;
+  width: 500px;
+  text-align: center;
+  margin-left: 400px;
+  margin-top: 300px;
+  font-size: 40px;
+}
+
+.projectsHome {
+  background-color: #4682B4;
+  height: 700px;
+}
+
+.text1, #profilePic, .skillTitleHome, .projectsTitleHome, .contactTextHome {
+  visibility: hidden;
+}
