@@ -14,7 +14,7 @@ import jestLogo from '../images/jestLogo.png'
 import rtlLogo from '../images/rtlLogo.png'
 import gitLogo from '../images/gitLogo.png'
 import githubLogo from '../images/githubLogo.png'
-import '../allScript/ScrollReveal'
+import Fade from 'react-reveal/Fade';
 
 class Home extends Component {
   redirectToProjects = () => {
@@ -27,25 +27,38 @@ class Home extends Component {
     return (
       <div>
         <Header />
+        <Fade left>
         <div className='welcome'>
+          <div>
           <h1 className='text1'> Welcome. </h1>
+          </div>
           <p className='textp'> My name is Leandro Sousa, I'm a Web developer from São Paulo, BR. I study at Trybe Curse, And I'm Loving the Developer World. </p>
           <button className='btn-home' type='button' onClick={ this.redirectToProjects }> My Projects </button>
         </div>
+        </Fade>
 
         <section className='aboutTextHome2' >
+        <Fade left>
         <div className='imgDiv'>
           <img id='profilePic' src={ profilePic } alt='Leandro img' />
         </div> 
+        </Fade>
+
+        <Fade left>
         <div className='aboutTextHome'>
-          <h1 id='aboutTitleHome'>About.</h1>
+        <h1 id='aboutTitleHome'>About.</h1>
           <p id='pAboutHome'> Hey, My name is Leandro Sousa, and I'm 19 years old, I have always been passionate about technology, I always had many doubts about which career to pursue until I found and discovered programming, from the first contact I had I fell in love, since then I started to always want to learn more.I'm currently studying Full Stack Web Development, and I'm learning more every day, and every project I complete makes me happier.
           My dream is to be happy with my career, travel the world and make a positive impact on people's lives with my programming knowledge, and I won't stop until I achieve that. </p>
         </div>
+        </Fade>
+          
         </section>
 
         <div>
+        <Fade left>
           <h1 className='skillTitleHome'>Skills.</h1>
+        </Fade>
+        <Fade left>
         <div className='skillsHome'>
           <img className='skillsImgHome' src={ htmlLogo } alt='html Logo' />
           <img className='skillsImgHome' src={ cssLogo }  alt='css Logo' />
@@ -56,17 +69,23 @@ class Home extends Component {
           <img className='skillsImgHome' src={ gitLogo } alt='git Logo' />
           <img className='skillsImgHome' src={ githubLogo } alt='gitHub Logo' />
         </div>
+        </Fade>
         </div>
 
       <section className='projectsHome'>
+      <Fade left>  
       <h1 className='projectsTitleHome'> Projects. </h1>
+      </Fade>
       </section>
 
       <section id='allContactHome'>
         <div id='allContactTextHome'>
+        <Fade left>
           <h1 className='contactTextHome'>Hey,</h1>
           <h2 className='contactTextHome'>For some reason do you wanna talk to me?</h2>
           <h2 h2 className='contactTextHoe'>You can text me here:</h2>
+        </Fade>
+        <Fade>
         <div id='allContactImgHome'>
           <a className='linkedinAHome' href='https://www.linkedin.com/in/leandro-sousa-dev/' target='_blank' rel="noreferrer">
           <img src={ LinkedinLogo } alt='Linkedin Logo' className='linkedinImgHome'/>
@@ -75,11 +94,13 @@ class Home extends Component {
           <img src={ emailLogo } alt='Email logo' className='emailImgHome' />
           </a>
         </div>   
+        </Fade>
         </div>
         {/* <div id='MyImgHome'>
           <img id='contactProfilePicHome' src={ profilePic } alt='Leandro img' />
         </div> */}
       </section>
+      
       <div id='homeFooter'>
       <Footer />
       </div>

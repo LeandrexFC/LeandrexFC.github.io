@@ -67,7 +67,7 @@ body {
 }
 
 .aboutTextHome2 {
-  background-color: #4682B4;
+  background-color: #937047;
   height: 700px;
   margin-top: -300px;
 }
@@ -163,10 +163,6 @@ body {
 }
 
 .projectsHome {
-  background-color: #4682B4;
+  background-color: #937047;
   height: 700px;
-}
-
-.text1, #profilePic, .skillTitleHome, .projectsTitleHome, .contactTextHome {
-  visibility: hidden;
 }
