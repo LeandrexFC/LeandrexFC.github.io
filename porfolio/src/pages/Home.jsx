@@ -15,6 +15,7 @@ import rtlLogo from '../images/rtlLogo.png'
 import gitLogo from '../images/gitLogo.png'
 import githubLogo from '../images/githubLogo.png'
 import Fade from 'react-reveal/Fade';
+import Typing from 'react-typing-animation';
 
 class Home extends Component {
   redirectToProjects = () => {
@@ -27,15 +28,19 @@ class Home extends Component {
     return (
       <div>
         <Header />
-        <Fade left>
+        {/* <Fade left> */}
         <div className='welcome'>
           <div>
           <h1 className='text1'> Welcome. </h1>
           </div>
-          <p className='textp'> My name is Leandro Sousa, I'm a Web developer from São Paulo, BR. I study at Trybe Curse, And I'm Loving the Developer World. </p>
+          <Typing speed={50}>
+          <p className='textp'> 
+          My name is Leandro Sousa, I'm a Web developer from São Paulo, BR, And I'm Loving the Developer World. 
+          </p>
+          </Typing>
           <button className='btn-home' type='button' onClick={ this.redirectToProjects }> My Projects </button>
         </div>
-        </Fade>
+        {/* </Fade> */}
 
         <section className='aboutTextHome2' >
         <Fade left>
