@@ -18,17 +18,18 @@ import Fade from 'react-reveal/Fade';
 import Typing from 'react-typing-animation';
 
 class Home extends Component {
+
   redirectToProjects = () => {
     const { history } = this.props;
     console.log(history)
     history.push('/projects')
   }
-
+  
   render() {
     return (
       <div>
         <Header />
-        {/* <Fade left> */}
+         <Fade left>
         <div className='welcome'>
           <div>
           <h1 className='text1'> Welcome. </h1>
@@ -40,7 +41,7 @@ class Home extends Component {
           </Typing>
           <button className='btn-home' type='button' onClick={ this.redirectToProjects }> My Projects </button>
         </div>
-        {/* </Fade> */}
+         </Fade>
 
         <section className='aboutTextHome2' >
         <Fade left>
@@ -59,23 +60,56 @@ class Home extends Component {
           
         </section>
 
-        <div>
         <Fade left>
           <h1 className='skillTitleHome'>Skills.</h1>
         </Fade>
         <Fade left>
         <div className='skillsHome'>
-          <img className='skillsImgHome' src={ htmlLogo } alt='html Logo' />
-          <img className='skillsImgHome' src={ cssLogo }  alt='css Logo' />
-          <img className='skillsImgHome' src={ jsLogo } alt='js Logo' />
-          <img className='skillsImgHome' src={ reactLogo }  alt='react Logo' />
-          <img className='skillsImgHome' src={ jestLogo } alt='jest Logo' />
-          <img className='skillsImgHome' src={ rtlLogo } alt='rtl Logo' />
-          <img className='skillsImgHome' src={ gitLogo } alt='git Logo' />
-          <img className='skillsImgHome' src={ githubLogo } alt='gitHub Logo' />
+          <div className='card 1'>
+            <img className='skillsImgHome' src={ htmlLogo } alt='html Logo' />
+            <p>HTML</p>
+          </div>
+
+          <div className='card 2'>
+            <img className='skillsImgHome' src={ cssLogo }  alt='css Logo' />
+            <p>CSS</p>
+          </div>
+
+          <div className='card 3'>
+            <img className='skillsImgHome' src={ jsLogo } alt='js Logo' />
+            <p>JavaScript</p>
+            {/* <p className='teast' hidden >test</p> */}
+          </div>
+
+          <div className='card 4'>
+            <img className='skillsImgHome' src={ reactLogo }  alt='react Logo' />
+            <p>React</p>
+          </div>
+
+          <div className='card 5'>
+            <img className='skillsImgHome' src={ jestLogo } alt='jest Logo' />
+            <p>Jest</p>
+          </div>
+
+          <div className='card 6'>
+            <img className='skillsImgHome' src={ rtlLogo } alt='rtl Logo' />
+            <p>RTL</p>
+          </div>
+
+          <div className='card 7'>
+            <img className='skillsImgHome' src={ gitLogo } alt='git Logo' />
+            <p>Git</p>
+          </div>
+
+          <div className='card 8'>
+            <img className='skillsImgHome' src={ githubLogo } alt='gitHub Logo' />
+            <p>GitHub</p>
+          </div>
+          <div className='skillsKnow'>
+            <p>Passe o mouse nos cards para saber mais</p>
+          </div>
         </div>
         </Fade>
-        </div>
 
       <section className='projectsHome'>
       <Fade left>  

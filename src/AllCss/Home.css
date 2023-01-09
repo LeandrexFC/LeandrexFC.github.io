@@ -137,21 +137,52 @@ body {
   width: 500px;
   text-align: center;
   margin-left: 400px;
-  margin-top: 300px;
+  margin-top: 100px;
   font-size: 60px;
 }
 
 .skillsHome {
   /* margin-top: 300px; */
   display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: center;
-  flex-direction:row
+  flex-wrap: wrap;
 } 
 
 .skillsImgHome {
-  width: 100px;
+  width: 70px;
   margin-right: 10px;
 }
+
+.skillsKnow {
+  
+}
+
+.card {
+  border-radius: 5px;
+  box-shadow: 7px 7px 13px 0 rgba(50, 50, 50, 0.22);
+  padding: 20px;
+  /* margin: 20px; */
+  width: 140px;
+  transition: all 0.3s ease-out;
+  margin-right: 100px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
+.card p {
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* .teast {
+  visibility: visible;
+} */
 
 .projectsTitleHome {
   color: white;
